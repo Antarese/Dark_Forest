@@ -62,15 +62,16 @@ func _process(delta):
 		highlight_tile_under_mouse(tile_data["z"], map_coords) #Highlight the current tile
 		hovered_tile = map_coords #Update hovered_tile to the current coordinates
 	else: #If no valid tile is under the mouse
+		remove_highlight()
 		print("no") #Debug: Indicate no tile is under the mouse
-		remove_highlight() #Remove highlight from the previously hovered tile
+		#remove_highlight() #Remove highlight from the previously hovered tile
 		hovered_tile = null #Reset hovered_tile
 
 func highlight_tile_under_mouse(highlight_z:int, coords:Vector2i):
 	#Highlights a tile by setting a special tile ID at a higher z-index layer
-	#Highlight_z + 1 ensures the highlight appears above the tile
+	#Highlight_z ensures the highlight appears above the tile
 	# 7 is the current ID of the highligh tile in the TileSet
-	set_cell(highlight_z + 1, coords, 7, Vector2i(0,0), 0)
+	set_cell(highlight_z + 1, coords, 5, Vector2i(0, 0), 0)
 
 func remove_highlight():
 	# Removes the highlight from the currently hovered tile
@@ -80,3 +81,6 @@ func remove_highlight():
 			#Remove the highlight by setting the tile ID to -1 at the highlight layer
 			set_cell(previous_tile_data["z"] + 1, hovered_tile, -1)
 		hovered_tile = null  #Reset hovered_tile to indicate no tile is currently highlighted
+
+
+
