@@ -1,4 +1,4 @@
-"""extends TileMap
+extends TileMap
 
 # Constants
 const MAX_LAYERS = 5
@@ -80,9 +80,9 @@ func remove_highlight():
 		if previous_tile_data.has("z"): #Ensure the data is valid
 			#Remove the highlight by setting the tile ID to -1 at the highlight layer
 			set_cell(previous_tile_data["z"] + 1, hovered_tile, -1)
-		hovered_tile = null  #Reset hovered_tile to indicate no tile is currently highlighted"""
+		hovered_tile = null  #Reset hovered_tile to indicate no tile is currently highlighted
 
-extends TileMap
+"""extends TileMap
 
 #Constants
 const MAX_LAYERS = 5
@@ -108,7 +108,7 @@ func compute_tile_data():
 			var coords = Vector2i(cell.x, cell.y)
 			#Store only the highest z_index at each coordinates
 			if not tile_data.has(coords) or tile_data[coords].z < z:
-				tile_data[coords] = {"z":z, "coords":coords}
+			tile_data[coords] = {"z":z, "coords":coords}
 
 func remove_occluded_tile():
 	#Remove tiles occluded by higher tiles in the tile column
@@ -155,5 +155,5 @@ func _process(delta):
 			apply_highlight(tile_info["z"], mouse_coords)
 			hovered_tile = mouse_coords
 	else:
-		clear_highlight()
+		clear_highlight()"""
 
