@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=4 uid="uid://cmg386r3mlspt"]
+[gd_scene load_steps=17 format=4 uid="uid://cmg386r3mlspt"]
 
 [ext_resource type="Texture2D" uid="uid://b81dbf0v082ea" path="res://Assets/Sprites/Environment/Test/Block_Test.png" id="1_wka44"]
 [ext_resource type="Texture2D" uid="uid://cr085j1fftyl4" path="res://Assets/Sprites/Environment/Test/Ramp_Test.png" id="2_64blp"]
@@ -8,7 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://cnsdjf3abwsw6" path="res://Assets/Sprites/Effects/Test/Highlight_Test.png" id="7_7khvy"]
 [ext_resource type="Texture2D" uid="uid://vmydx2i8da54" path="res://Assets/Sprites/Effects/Test/Block_Highlight_Test.png" id="7_tbt0s"]
 [ext_resource type="Script" uid="uid://b3bjk8k02k0j4" path="res://Scripts/Game_Manager/Test_01/Environment.gd" id="8_5scyc"]
-[ext_resource type="PackedScene" uid="uid://blbfthvp1rv" path="res://Scenes/Characters/Test_Collision_Shape.tscn" id="9_i8ksk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_77g5v"]
 texture = ExtResource("1_wka44")
@@ -140,48 +139,45 @@ y_sort_enabled = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Node2D" parent="." instance=ExtResource("9_i8ksk")]
-z_index = 4
-y_sort_enabled = true
-position = Vector2(-272, -8)
+[node name="Character Map Layers" type="Node2D" parent="."]
 
-[node name="TileMapLayers" type="Node2D" parent="."]
-script = ExtResource("8_5scyc")
-
-[node name="level 0" type="TileMapLayer" parent="TileMapLayers"]
-y_sort_enabled = true
-use_parent_material = true
-tile_map_data = PackedByteArray("AAD//wIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAMAAAAAAAAAAAACAAIAAAAAAAAAAAABAAMAAAAAAAAAAAABAAQAAAAAAAAAAAACAAQAAAAAAAAAAAADAAQAAAAAAAAAAAADAAIAAAAAAAAAAAADAAMAAAAAAAAAAAA=")
-tile_set = SubResource("TileSet_g6h5f")
-
-[node name="level 0_5" type="TileMapLayer" parent="TileMapLayers"]
+[node name="level 0_5" type="TileMapLayer" parent="Character Map Layers"]
 z_index = 1
 y_sort_enabled = true
 use_parent_material = true
 tile_set = SubResource("TileSet_g6h5f")
 
-[node name="level 1" type="TileMapLayer" parent="TileMapLayers"]
+[node name="level 1_5" type="TileMapLayer" parent="Character Map Layers"]
+z_index = 3
+y_sort_enabled = true
+use_parent_material = true
+tile_set = SubResource("TileSet_g6h5f")
+
+[node name="level 5" type="TileMapLayer" parent="Character Map Layers"]
+z_index = 5
+y_sort_enabled = true
+use_parent_material = true
+tile_set = SubResource("TileSet_g6h5f")
+
+[node name="Environment Map Layers" type="Node2D" parent="."]
+script = ExtResource("8_5scyc")
+
+[node name="level 0" type="TileMapLayer" parent="Environment Map Layers"]
+y_sort_enabled = true
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD//wIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAMAAAAAAAAAAAACAAIAAAAAAAAAAAABAAMAAAAAAAAAAAABAAQAAAAAAAAAAAACAAQAAAAAAAAAAAADAAQAAAAAAAAAAAADAAIAAAAAAAAAAAADAAMAAAAAAAAAAAA=")
+tile_set = SubResource("TileSet_g6h5f")
+
+[node name="level 1" type="TileMapLayer" parent="Environment Map Layers"]
 z_index = 2
 y_sort_enabled = true
 use_parent_material = true
 tile_map_data = PackedByteArray("AAD+/wEAAAABAAAAAAABAAIAAAACAAAAAAA=")
 tile_set = SubResource("TileSet_g6h5f")
 
-[node name="level 1_5" type="TileMapLayer" parent="TileMapLayers"]
-z_index = 3
-y_sort_enabled = true
-use_parent_material = true
-tile_set = SubResource("TileSet_g6h5f")
-
-[node name="level 2" type="TileMapLayer" parent="TileMapLayers"]
+[node name="level 2" type="TileMapLayer" parent="Environment Map Layers"]
 z_index = 4
 y_sort_enabled = true
 use_parent_material = true
 rotation = 4.35631e-05
-tile_set = SubResource("TileSet_g6h5f")
-
-[node name="level 5" type="TileMapLayer" parent="TileMapLayers"]
-z_index = 5
-y_sort_enabled = true
-use_parent_material = true
 tile_set = SubResource("TileSet_g6h5f")
