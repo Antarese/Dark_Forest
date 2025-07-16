@@ -21,6 +21,15 @@ window/size/viewport_width=640
 window/size/viewport_height=320
 window/stretch/mode="viewport"
 
+[file_customization]
+
+folder_colors={
+"res://Assets/": "red",
+"res://Data/": "orange",
+"res://Scripts/": "green",
+"res://Shaders/": "yellow"
+}
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
