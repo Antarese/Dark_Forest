@@ -8,7 +8,7 @@ uniform vec4 replacement_color : source_color = vec4(94.0, 177.0, 191.0, 1.0);
 
 void fragment() {
 	vec4 original_color = texture(TEXTURE, UV);
-	
+
 	if (original_color == target_color) {
 		COLOR = replacement_color;
 	} else {

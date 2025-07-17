@@ -408,6 +408,7 @@ y_sort_enabled = true
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Character Map Layers" type="Node2D" parent="."]
+visible = false
 
 [node name="level 0_5" type="TileMapLayer" parent="Character Map Layers"]
 z_index = 1

@@ -15,19 +15,25 @@ run/main_scene="res://Scenes/Levels/Test/Test_01_Proof of Concept.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[debug]
+
+settings/stdout/print_fps=true
+
 [display]
 
 window/size/viewport_width=640
 window/size/viewport_height=320
 window/stretch/mode="viewport"
+window/vsync/vsync_mode=0
 
 [file_customization]
 
 folder_colors={
-"res://Assets/": "red",
-"res://Data/": "orange",
+"res://Assets/": "purple",
+"res://Data/": "yellow",
+"res://Scenes/": "orange",
 "res://Scripts/": "green",
-"res://Shaders/": "yellow"
+"res://Shaders/": "gray"
 }
 
 [rendering]
