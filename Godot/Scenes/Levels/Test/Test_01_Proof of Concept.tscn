@@ -10,84 +10,124 @@ texture = ExtResource("1_6n4tg")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 0:0/0/texture_origin = Vector2i(0, -8)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 1:0/0 = 0
 1:0/0/texture_origin = Vector2i(0, -8)
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 2:0/0 = 0
 2:0/0/texture_origin = Vector2i(0, -8)
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 3:0/0 = 0
 3:0/0/texture_origin = Vector2i(0, -8)
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 4:0/0 = 0
 4:0/0/texture_origin = Vector2i(0, -8)
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 4:1/0 = 0
 4:1/0/texture_origin = Vector2i(0, -8)
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 5:0/0 = 0
 5:0/0/texture_origin = Vector2i(0, -8)
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 5:1/0 = 0
 5:1/0/texture_origin = Vector2i(0, -8)
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 6:0/0 = 0
 6:0/0/texture_origin = Vector2i(0, -8)
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 6:1/0 = 0
 6:1/0/texture_origin = Vector2i(0, -8)
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 7:0/0 = 0
 7:0/0/texture_origin = Vector2i(0, -8)
+7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 7:1/0 = 0
 7:1/0/texture_origin = Vector2i(0, -8)
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 8:0/0 = 0
 8:0/0/texture_origin = Vector2i(0, -8)
+8:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 8:1/0 = 0
 8:1/0/texture_origin = Vector2i(0, -8)
+8:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 9:0/0 = 0
 9:0/0/texture_origin = Vector2i(0, -8)
+9:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 9:1/0 = 0
 9:1/0/texture_origin = Vector2i(0, -8)
+9:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 10:0/0 = 0
 10:0/0/texture_origin = Vector2i(0, -8)
+10:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 10:1/0 = 0
 10:1/0/texture_origin = Vector2i(0, -8)
+10:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 11:0/0 = 0
 11:0/0/texture_origin = Vector2i(0, -8)
+11:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 11:1/0 = 0
 11:1/0/texture_origin = Vector2i(0, -8)
+11:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 12:0/0 = 0
 12:0/0/texture_origin = Vector2i(0, -8)
+12:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 13:0/0 = 0
 13:0/0/texture_origin = Vector2i(0, -8)
+13:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 14:0/0 = 0
 14:0/0/texture_origin = Vector2i(0, -8)
+14:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 15:0/0 = 0
 15:0/0/texture_origin = Vector2i(0, -8)
+15:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 16:0/0 = 0
 16:0/0/texture_origin = Vector2i(0, -8)
+16:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 16:1/0 = 0
 16:1/0/texture_origin = Vector2i(0, -8)
+16:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 16:2/0 = 0
 16:2/0/texture_origin = Vector2i(0, -8)
+16:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 16:3/0 = 0
 16:3/0/texture_origin = Vector2i(0, -8)
+16:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 17:0/0 = 0
 17:0/0/texture_origin = Vector2i(0, -8)
+17:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 17:1/0 = 0
 17:1/0/texture_origin = Vector2i(0, -8)
+17:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 17:2/0 = 0
 17:2/0/texture_origin = Vector2i(0, -8)
+17:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 17:3/0 = 0
 17:3/0/texture_origin = Vector2i(0, -8)
+17:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 18:0/0 = 0
 18:0/0/texture_origin = Vector2i(0, -8)
+18:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 18:1/0 = 0
 18:1/0/texture_origin = Vector2i(0, -8)
+18:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 18:2/0 = 0
 18:2/0/texture_origin = Vector2i(0, -8)
+18:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 18:3/0 = 0
 18:3/0/texture_origin = Vector2i(0, -8)
+18:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 19:0/0 = 0
 19:0/0/texture_origin = Vector2i(0, -8)
+19:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 19:1/0 = 0
 19:1/0/texture_origin = Vector2i(0, -8)
+19:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 19:2/0 = 0
 19:2/0/texture_origin = Vector2i(0, -8)
+19:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 19:3/0 = 0
 19:3/0/texture_origin = Vector2i(0, -8)
+19:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_nq83p"]
 shader = ExtResource("2_6n4tg")
@@ -221,12 +261,10 @@ texture_region_size = Vector2i(32, 32)
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_66nkw"]
 shader = ExtResource("2_nq83p")
 shader_parameter/target_color = Color(0, 0, 0, 1)
-shader_parameter/replacement_color = Color(0, 1, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_txydn"]
 shader = ExtResource("2_nq83p")
 shader_parameter/target_color = Color(0, 0, 0, 1)
-shader_parameter/replacement_color = Color(0, 1, 0, 1)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6n4tg"]
 resource_name = "Test_Highlight_Merge"
@@ -397,6 +435,7 @@ texture_region_size = Vector2i(32, 32)
 tile_shape = 1
 tile_layout = 5
 tile_size = Vector2i(32, 16)
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_66nkw")
 sources/200 = SubResource("TileSetAtlasSource_6n4tg")
 sources/100 = SubResource("TileSetAtlasSource_n012b")
@@ -434,14 +473,14 @@ script = ExtResource("8_5scyc")
 [node name="level 0" type="TileMapLayer" parent="Environment Map Layers"]
 y_sort_enabled = true
 use_parent_material = true
-tile_map_data = PackedByteArray("AAD//wIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAMAAAAAAAAAAAACAAIAAAAAAAAAAAABAAMAAAAAAAAAAAABAAQAAAAAAAAAAAACAAQAAAAAAAAAAAADAAQAAAAAAAAAAAADAAIAAAAAAAAAAAADAAMAAAAAAAAAAAA=")
+tile_map_data = PackedByteArray("AAD//wIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAMAAAAAAAAAAAACAAIAAAAAAAAAAAABAAMAAAAAAAAAAAABAAQAAAAAAAAAAAACAAQAAAAAAAAAAAADAAQAAAAAAAAAAAADAAIAAAAAAAAAAAADAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAD//wQAAAAAAAAAAAD//wMAAAAAAAAAAAD+/wMAAAAAAAAAAAD+/wQAAAAAAAAAAAD+/wUAAAAAAAAAAAD+/wYAAAAAAAAAAAD+/wcAAAAAAAAAAAD+/wgAAAAAAAAAAAD+//3/AAAAAAAAAAD+//7/AAAAAAAAAAD+////AAAAAAAAAAD+/wAAAAAAAAAAAAD+/wEAAAAAAAAAAAD+/wIAAAAAAAAAAAD///3/AAAAAAAAAAD///7/AAAAAAAAAAD/////AAAAAAAAAAD//wAAAAAAAAAAAAD//wEAAAAAAAAAAAD//wUAAAAAAAAAAAD//wYAAAAAAAAAAAD//wcAAAAAAAAAAAD//wgAAAAAAAAAAAAAAP3/AAAAAAAAAAAAAP7/AAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAUAAAAAAAAAAAABAAYAAAAAAAAAAAABAAcAAAAAAAAAAAABAAgAAAAAAAAAAAACAAUAAAAAAAAAAAACAAYAAAAAAAAAAAACAAcAAAAAAAAAAAACAAgAAAAAAAAAAAABAP3/AAAAAAAAAAABAP7/AAAAAAAAAAABAP//AAAAAAAAAAABAAAAAAAAAAAAAAABAAEAAAAAAAAAAAACAP3/AAAAAAAAAAACAP7/AAAAAAAAAAACAP//AAAAAAAAAAACAAAAAAAAAAAAAAACAAEAAAAAAAAAAAADAP3/AAAAAAAAAAADAP7/AAAAAAAAAAADAP//AAAAAAAAAAADAAAAAAAAAAAAAAADAAEAAAAAAAAAAAADAAUAAAAAAAAAAAADAAYAAAAAAAAAAAADAAcAAAAAAAAAAAADAAgAAAAAAAAAAAAEAP3/AAAAAAAAAAAEAP7/AAAAAAAAAAAEAP//AAAAAAAAAAAEAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAEAAIAAAAAAAAAAAAEAAMAAAAAAAAAAAAEAAQAAAAAAAAAAAAEAAUAAAAAAAAAAAAEAAYAAAAAAAAAAAAEAAcAAAAAAAAAAAAEAAgAAAAAAAAAAAA=")
 tile_set = SubResource("TileSet_g6h5f")
 
 [node name="level 1" type="TileMapLayer" parent="Environment Map Layers"]
 z_index = 2
 y_sort_enabled = true
 use_parent_material = true
-tile_map_data = PackedByteArray("AAABAAIAAAACAAAAAAD+/wEAAAACAAAAAAA=")
+tile_map_data = PackedByteArray("AAD+/wEAAAACAAAAAAD//wEAAAAGAAAAAAD+/wIAAAACAAAAAAD+/wMAAAACAAAAAAD+/wQAAAACAAAAAAD+/wUAAAACAAAAAAD+/wYAAAACAAAAAAD+/wcAAAACAAAAAAD9//z/AAACAAAAAAD9//3/AAACAAAAAAD9//7/AAACAAAAAAD9////AAACAAAAAAD9/wAAAAACAAAAAAD9/wEAAAACAAAAAAD9/wIAAAACAAAAAAD9/wMAAAACAAAAAAD9/wQAAAACAAAAAAD9/wUAAAACAAAAAAD9/wYAAAACAAAAAAD9/wcAAAACAAAAAAD+//z/AAACAAAAAAD+//3/AAACAAAAAAD+//7/AAACAAAAAAD+////AAACAAAAAAD+/wAAAAACAAAAAAD//wIAAAAGAAAAAAD//wMAAAAGAAAAAAD//wQAAAAGAAAAAAD//wUAAAAGAAAAAAD//wYAAAAGAAAAAAD//wcAAAAGAAAAAAACAPz/AAACAAAAAAADAPz/AAACAAAAAAACAP3/AAACAAAAAAACAP7/AAACAAAAAAACAP//AAACAAAAAAA=")
 tile_set = SubResource("TileSet_g6h5f")
 
 [node name="level 2" type="TileMapLayer" parent="Environment Map Layers"]
@@ -449,4 +488,5 @@ z_index = 4
 y_sort_enabled = true
 use_parent_material = true
 rotation = 4.35631e-05
+tile_map_data = PackedByteArray("AAD8//v/AAADAAAAAAD8//z/AAADAAAAAAD8//3/AAADAAAAAAD8//7/AAADAAAAAAD8////AAADAAAAAAD8/wAAAAADAAAAAAD8/wEAAAADAAAAAAD8/wIAAAADAAAAAAD8/wMAAAADAAAAAAD8/wQAAAADAAAAAAD8/wUAAAADAAAAAAD8/wYAAAADAAAAAAD9//v/AAADAAAAAAD9//z/AAADAAAAAAD9//3/AAAHAAEAAAA=")
 tile_set = SubResource("TileSet_g6h5f")
