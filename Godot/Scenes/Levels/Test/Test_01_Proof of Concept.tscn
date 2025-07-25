@@ -1,6 +1,7 @@
-[gd_scene load_steps=12 format=4 uid="uid://cmg386r3mlspt"]
+[gd_scene load_steps=13 format=4 uid="uid://cmg386r3mlspt"]
 
 [ext_resource type="Texture2D" uid="uid://u116kxgdhesj" path="res://Assets/Sprites/Environment/Test/Test_Merged.png" id="1_6n4tg"]
+[ext_resource type="PackedScene" uid="uid://dsod4u7k1b8dy" path="res://Scenes/Characters/Test/Character_Test.tscn" id="1_nq83p"]
 [ext_resource type="Shader" uid="uid://dpxpd2xieike4" path="res://Shaders/Color Replacement/Color Darken.gdshader" id="2_6n4tg"]
 [ext_resource type="Shader" uid="uid://bqf1drkpb3vgq" path="res://Shaders/Color Replacement/Color Replacement.gdshader" id="2_nq83p"]
 [ext_resource type="Script" uid="uid://b3bjk8k02k0j4" path="res://Scripts/Game_Manager/Test_01/Environment.gd" id="8_5scyc"]
@@ -446,16 +447,23 @@ y_sort_enabled = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Character Map Layers" type="Node2D" parent="."]
-visible = false
+[node name="Characters" type="Node2D" parent="."]
+position = Vector2(-220, 77)
 
-[node name="level 0_5" type="TileMapLayer" parent="Character Map Layers"]
+[node name="CharacterBody2D" parent="Characters" instance=ExtResource("1_nq83p")]
+z_index = 2
+y_sort_enabled = true
+position = Vector2(332, -117)
+
+[node name="Character Map Layers" type="Node2D" parent="."]
+
+[node name="level 1" type="TileMapLayer" parent="Character Map Layers"]
 z_index = 1
 y_sort_enabled = true
 use_parent_material = true
 tile_set = SubResource("TileSet_g6h5f")
 
-[node name="level 1_5" type="TileMapLayer" parent="Character Map Layers"]
+[node name="level 3" type="TileMapLayer" parent="Character Map Layers"]
 z_index = 3
 y_sort_enabled = true
 use_parent_material = true
@@ -476,14 +484,14 @@ use_parent_material = true
 tile_map_data = PackedByteArray("AAD//wIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAMAAAAAAAAAAAACAAIAAAAAAAAAAAABAAMAAAAAAAAAAAABAAQAAAAAAAAAAAACAAQAAAAAAAAAAAADAAQAAAAAAAAAAAADAAIAAAAAAAAAAAADAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAD//wQAAAAAAAAAAAD//wMAAAAAAAAAAAD+/wMAAAAAAAAAAAD+/wQAAAAAAAAAAAD+/wUAAAAAAAAAAAD+/wYAAAAAAAAAAAD+/wcAAAAAAAAAAAD+/wgAAAAAAAAAAAD+//3/AAAAAAAAAAD+//7/AAAAAAAAAAD+////AAAAAAAAAAD+/wAAAAAAAAAAAAD+/wEAAAAAAAAAAAD+/wIAAAAAAAAAAAD///3/AAAAAAAAAAD///7/AAAAAAAAAAD/////AAAAAAAAAAD//wAAAAAAAAAAAAD//wEAAAAAAAAAAAD//wUAAAAAAAAAAAD//wYAAAAAAAAAAAD//wcAAAAAAAAAAAD//wgAAAAAAAAAAAAAAP3/AAAAAAAAAAAAAP7/AAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAUAAAAAAAAAAAABAAYAAAAAAAAAAAABAAcAAAAAAAAAAAABAAgAAAAAAAAAAAACAAUAAAAAAAAAAAACAAYAAAAAAAAAAAACAAcAAAAAAAAAAAACAAgAAAAAAAAAAAABAP3/AAAAAAAAAAABAP7/AAAAAAAAAAABAP//AAAAAAAAAAABAAAAAAAAAAAAAAABAAEAAAAAAAAAAAACAP3/AAAAAAAAAAACAP7/AAAAAAAAAAACAP//AAAAAAAAAAACAAAAAAAAAAAAAAACAAEAAAAAAAAAAAADAP3/AAAAAAAAAAADAP7/AAAAAAAAAAADAP//AAAAAAAAAAADAAAAAAAAAAAAAAADAAEAAAAAAAAAAAADAAUAAAAAAAAAAAADAAYAAAAAAAAAAAADAAcAAAAAAAAAAAADAAgAAAAAAAAAAAAEAP3/AAAAAAAAAAAEAP7/AAAAAAAAAAAEAP//AAAAAAAAAAAEAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAEAAIAAAAAAAAAAAAEAAMAAAAAAAAAAAAEAAQAAAAAAAAAAAAEAAUAAAAAAAAAAAAEAAYAAAAAAAAAAAAEAAcAAAAAAAAAAAAEAAgAAAAAAAAAAAA=")
 tile_set = SubResource("TileSet_g6h5f")
 
-[node name="level 1" type="TileMapLayer" parent="Environment Map Layers"]
+[node name="level 2" type="TileMapLayer" parent="Environment Map Layers"]
 z_index = 2
 y_sort_enabled = true
 use_parent_material = true
 tile_map_data = PackedByteArray("AAD+/wEAAAACAAAAAAD//wEAAAAGAAAAAAD+/wIAAAACAAAAAAD+/wMAAAACAAAAAAD+/wQAAAACAAAAAAD+/wUAAAACAAAAAAD+/wYAAAACAAAAAAD+/wcAAAACAAAAAAD9//z/AAACAAAAAAD9//3/AAACAAAAAAD9//7/AAACAAAAAAD9////AAACAAAAAAD9/wAAAAACAAAAAAD9/wEAAAACAAAAAAD9/wIAAAACAAAAAAD9/wMAAAACAAAAAAD9/wQAAAACAAAAAAD9/wUAAAACAAAAAAD9/wYAAAACAAAAAAD9/wcAAAACAAAAAAD+//z/AAACAAAAAAD+//3/AAACAAAAAAD+//7/AAACAAAAAAD+////AAACAAAAAAD+/wAAAAACAAAAAAD//wIAAAAGAAAAAAD//wMAAAAGAAAAAAD//wQAAAAGAAAAAAD//wUAAAAGAAAAAAD//wYAAAAGAAAAAAD//wcAAAAGAAAAAAACAPz/AAACAAAAAAADAPz/AAACAAAAAAACAP3/AAACAAAAAAACAP7/AAACAAAAAAACAP//AAACAAAAAAA=")
 tile_set = SubResource("TileSet_g6h5f")
 
-[node name="level 2" type="TileMapLayer" parent="Environment Map Layers"]
+[node name="level 4" type="TileMapLayer" parent="Environment Map Layers"]
 z_index = 4
 y_sort_enabled = true
 use_parent_material = true
