@@ -276,6 +276,8 @@ func apply_highlighted_tile_effect() -> void:
 					print("replace tile: ", map_coords)
 					print("from atlas_coords: ", current_atlas_coords, ", source_id: ", current_source_id)
 					print("to atlas_coords: ", replacement_atlas_coords, ", source_id: ", replacement_source_id)
+				
+				break
 
 
 func remove_highlighted_tile_effect() -> void:
@@ -291,17 +293,3 @@ func remove_highlighted_tile_effect() -> void:
 			tile_data["atlas_coords"]
 		)
 	currently_highlighted_tile = Vector3i(-999, -999, -999)
-
-
-"""To do:
-	1. Unify debug statements into a helper function (maybe)
-	2. Add source ID validation before tile replacement - done
-	3. Add error handling for edge cases - somewhat done
-	4. Consider splitting the script and node into smaller nodes to handle separate function:
-		- Tile Collection Node
-		- Setting up the level graphically node
-	5. Validate z_index steps
-	6. Check for type safety consistency
-	7. Rename functions more consistently
-	8. Recheck repeated operations to see if combinable: all dicitonaries and children are 
-	being iterated multiple times by multiple functions. - done: 1 dictionary"""
